@@ -45,7 +45,9 @@ Det er ingen plan om å avvikle de gamle ingressene i FSS, men vi anbefaler en g
 
 MQ benyttes i dag kun via on-premises servere som driftes og vedlikeholdes av ATOM og Linux. 
 
-Det er ønskelig at de applikasjonene som har mulighet heller benytter Aiven Kafka. Vi ønsker at man går vekk fra MQ fordi dette vil forenkle overgang til offentlig sky og et eventuelt bytte av leverandør der. Dette vil også forenkle oppsettet for applikasjonene og plattform.
+Det er ønskelig at de applikasjonene som har mulighet heller benytter Aiven Kafka. 
+(Vi ønsker at man går vekk fra MQ fordi dette vil forenkle overgang til offentlig sky og et eventuelt bytte av leverandør der. Dette vil også forenkle oppsettet for applikasjonene og plattform.)
+Denne forutsetningen i parentes over stemmer ikke, mq kjører i containere i skya i gcp etc, når det gjelder forenkling av oppsett for applikasjonene så holder vi på med et prosjekt for å forenkle det, MQ er et reelt alternativ til kafka, og i visse tilfeller et bedre alternativ. 
 
 Det er dog støtte for MQ fra nais-klusterne on-premises og i GCP, men da kun med nye MQ-servere som er satt opp med autentisering. 
 
